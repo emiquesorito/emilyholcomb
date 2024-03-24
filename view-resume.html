@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNG36EWR2Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BNG36EWR2Y');
+</script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
+        <!--==================== SWIPER CSS====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== Favicon ==========-->
+        <link rel="shortcut icon" href="https://emilyholcomb.com/assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="https://emilyholcomb.com/assets/img/favicon.ico">
+
+        <!-- PDF Viewer -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+
+        <title>Emily Holcomb Product | Strategy | UX | Analysis</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="pdf-viewer-nav container">
+                    <button class="pdf-pagination-button" id="prevPage">
+                        <i class="uil uil-previous button__icon"></i>
+                        Previous Page
+                    </button>
+
+                    <a href="index.html" style="text-decoration: underline;" class="exit__link active-link">
+                        Exit Resume Viewer
+                    </a>
+
+                    <button class="pdf-pagination-button" id="nextPage">
+                        Next Page
+                        <i class="uil uil-step-forward button__icon"></i>
+                    </button>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        
+        <main class="resume-viewer"></main>
+            <div id="pdfContainer" class="pdf-container">
+                <!-- PDF content will be displayed here -->
+            </div>
+
+            <!--==================== MAIN JS ====================-->
+            <script src="assets/js/viewer.js"></script>
+        </main>
+    </body>
+    
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollup" id="scroll-top">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <a download="" href="assets/pdf/EH-Resume-24.pdf" class="scrollup">
+        Download resume <i class="uil uil-download-alt button__icon"></i>
+    </a>
+        
+</html>
